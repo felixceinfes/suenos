@@ -3,7 +3,7 @@ defaultContentLanguage = "en"
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 theme = "hugo-scroll"
 themesDir = "../.."
-title = "#5000 sueños"
+title = "5000 sueños"
 [params]
 copyright = "© Jane Doe"
 description = "Nutrition Coach & Chef Consultant"
