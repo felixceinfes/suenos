@@ -46,8 +46,11 @@ var $sitehead = $("#site-head");
     });
     $("#header-arrow").click(function () {
       srcTo($first);
+      srcTo($(".ini.ps"));
     });
-
+     $fnav.append(
+        "<a class='fn-item' item_index='-1'>Inicio</a>"
+      );
     $(".post-title").each(function () {
       var t = $(this).text();
       var index = $(this).parents(".post-holder").index();

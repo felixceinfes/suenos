@@ -19,6 +19,18 @@
 <meta name="MobileOptimized" content="320" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+{{ "<!-- Bootstrap -->" | safeHTML }}
+  <link rel="stylesheet" href="{{ `plugins/bootstrap/bootstrap.min.css` | absURL }}" type="text/css">
+
+  {{ "<!-- themefy-icon -->" | safeHTML }}
+  <link rel="stylesheet" href="{{ `plugins/themify-icons/themify-icons.css` | absURL }}" type="text/css">
+
+  {{ "<!--Favicon-->" | safeHTML }}
+  <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+
+  {{ "<!-- fonts -->" | safeHTML }}
+  <link href="https://fonts.google.com/specimen/New+Tegomin?preview.text_type=custom" type="text/css">
+
 <link rel="stylesheet" href="{{ "css/screen.css" | absURL }}" />
 <link
   href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700"
