@@ -6,9 +6,9 @@ themesDir = "../.."
 title = "#5000 sueños"
 [params]
 copyright = "© Jane Doe"
-description = "Nutrition Coach & Chef Consultant"
+description = "Conoce nuestros sueños"
 favicon = "images/favicon.png"
 images = ["images/cover-image.jpg"]
-title = "Jane Doe - Nutrition Coach & Chef Consultant"
+title = "# Programa 5000 sueños"
 [params.meta]
 keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
