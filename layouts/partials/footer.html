@@ -1,16 +1,53 @@
-<footer class="site-footer">
-  <div class="inner">
-    {{ with .Site.Params.copyright }}
-      <section class="copyright">{{ . | markdownify }}</section>{{ end }}
+<footer class="site-footer pb-0 mb-0">
+  <div class="row m-2">
+    <div class="col-md-4">
+      <div class="row ">
+        <div class="col-md-8 mx-auto">
+          <img src="images/logogoup.png" class="img-fluid" >
+        </div>
+      </div>      
+    </div>
+    <div class="col-md-4">
+        <div>Conoce nuestra iniciativa</div>
+        <div>Cumpliendo sueños </div>
+    </div>
+    <div class="col-md-4">
+      <div class="row">
+        <div class="col-md-4 text-left mr-0 pr-0 ml-0 pl-0">
+          <i><img src="images/wplanding.png" alt="" srcset="" width="24px">Whatsapp:</i>
+        </div>
+        <div class="col-md-8 text-left">
+          <div><a class="fa" href="https://api.whatsapp.com/send?phone=3176360230&amp;text=Hola, ¿Comó podemos ayudarte ?" target="_blank">3176360230</a></div>
+           <div> <a class="fa" href="https://api.whatsapp.com/send?phone=3155456493&amp;text=Hola, ¿Comó podemos ayudarte ?" target="_blank">3155456493</a></div>
+            <div><a class="fa" href="https://api.whatsapp.com/send?phone=3118651996&amp;text=Hola, ¿Comó podemos ayudarte ?" target="_blank">3118651996</a></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-left mr-0 pr-0 ml-0 pl-0">
+          <i><img src="images/telefonolanding.png" alt="" srcset="" width="25px">Teléfono:</i>
+        </div>
+        <div class="col-md-8 text-left">
+          <a>+57(1) 7420871</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-left  mr-0 pr-0 ml-0 pl-0">
+          <i><img src="images/maillanding.png" alt="" srcset="" width="24px">Correo:</i>
+        </div>
+        <div class="col-md-8 text-left">
+          <a href="#!" style="font-size: 12px">valorcompartido@miltonochoacolombia.com</a>
+        </div>
+      </div>
 
-
-    <section>{{ echoParam .Site.Params "hidebyline" }}</section>
-    {{ if ne .Site.Params.hidedesignbyline true }}
-      <section>
-        <a href="https://themes.gohugo.io/hugo-scroll/">Design</a> template
-        built with ♥️ by
-        <a href="https://www.janraasch.com" title="Jan Raasch">Jan Raasch</a>
-      </section>{{ end }}
-
+    </div>
   </div>
+  
+  <div class="row pb-4 pt-4" style="background-color: rgba(51,51,51,0.08);">
+    <div class="inner">
+        <section class="copyright">Nuestros aliados</section>
+        <section>
+         <img src="images/aliadoslanding.png" class="attachment-full size-full lazyloaded" style=" width: 60%;">
+        </section>
+    </div>
+</div>
 </footer>

@@ -15,7 +15,8 @@ Botón a modal
 	{{<divsixvideo "1" "https://www.youtube.com/embed/AiiHuhOHAQY">}}
 	{{</divsixvideo>}}
 {{</divrow>}}
-
+{{<divrowgif "BANNER2.gif">}}
+{{</divrowgif>}}
 {{<modal>}}
 Texto modal
 {{</modal>}}
