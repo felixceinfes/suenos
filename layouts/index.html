@@ -4,8 +4,8 @@
 <header id="site-head" {{ with .Params.header_image }}style="background-image: url({{ . }})"{{ end }}>
     <div class="vertical">
         <div id="site-head-content" class="inner">
-
-            {{ with .Params.header_headline }}<h1 class="blog-title">{{ . }}</h1>{{ end }}
+            <img src="images/begroup.png" style="width:20%">
+            <h6 class="mt-5 mb-5"><img src="images/slogani.png" style="width: 50%"></h6>
             {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
 
             {{ range where $sections ".Params.header_menu" "eq" true }}
